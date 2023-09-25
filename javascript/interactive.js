@@ -26,7 +26,6 @@ $(document).ready(function() {
 
   $(function() {
     $(".third img").draggable({
-      // revert: "invalid",
       cursor: "move",
       zIndex: 2
     });
