@@ -1,0 +1,43 @@
+
+p, a {
+  color: #F3F3FF;
+  letter-spacing: 0.3vw;
+  text-align: center;
+  line-height: 3.819vw;
+}
+.hello p {
+  font-size: 3.194vw;
+}
+.hello {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #999CC2;
+  width: 56%;
+  height: 25.694vw;
+  position: relative;
+  border-radius: 3.472vw;
+}
+.choice p, a {
+  font-size: 4.514vw;
+  text-decoration: none;
+}
+.choice {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 56%;
+  margin-top: 4.653vw;
+}
+.yes, .no {
+  height: 7.639vw;
+  width: 15.625vw;
+  border-radius: 2.431vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #999CC2;
+}
+.yes {
+  transition: background-color .3s;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Генератор чувств</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascript/jquery-3.6.3.min.js" type="text/javascript">  </script>
+    <script src="javascript/interactive.js" type="text/javascript"> </script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $(".button").click(function() {
+        $(".ball").addClass("animate");
+        setTimeout(function() {
+        $(".ball").removeClass("animate");
+      }, 5000);
+    });
+  })
+    </script>
+    <style media="screen">
+      body {
+        background-color: #5B5F97;
+        font-family: 'Rubik', sans-serif;
+        height: 100%;
+        display: block;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="first">
+      <div class="window1">
+        <img src="images/pipes.png" alt="">
+        <img src="images/frame4.png" class="ball" alt="">
+      </div>
+      <img src="images/button.png" class="button" alt="">
+    </div>
+    <div class="second">
+      <div class="buttons">
+        <span class="yellow"></span>
+        <span class="pink"></span>
+        <span class="blue"></span>
+      </div>
+      <div class="window2">
+        <span class="skin"></span>
+      </div>
+    </div>
+    <div class="third">
+      <img src="images/stars.svg" class="stars1" alt="">
+      <img src="images/yellowstars.svg" class="stars2" alt="">
+      <img src="images/eyes.png" alt="">
+      <img src="images/cry.png" alt="">
+      <img src="images/openmouth.png" class="mouth1" alt="">
+      <img src="images/yellowmouth.png" class="mouth2" alt="">
+      <img src="images/sadmouth.png" alt="">
+      <img src="images/happymouth.png" alt="">
+
+      <span class="face"></span>
+    </div>
+    <div class="ready">
+      <p>ГОТОВО!</p>
+    </div>
+  </body>
+</html>
